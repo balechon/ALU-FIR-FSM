@@ -1,7 +1,4 @@
 ## This file is a general .xdc for the Basys3 rev B board
-## To use it in a project:
-## - uncomment the lines corresponding to used pins
-## - rename the used ports (in each line, after get_ports) according to the top level signal names in the project
 
 ## Clock signal
 set_property PACKAGE_PIN W5 [get_ports clk_t]
@@ -9,7 +6,6 @@ set_property PACKAGE_PIN W5 [get_ports clk_t]
 	create_clock -add -name sys_clk_pin -period 10.00 -waveform {0 5} [get_ports clk_t]
 
 ## Switches
-## switches de la alu
 set_property PACKAGE_PIN V17 [get_ports {a_t[0]}]
 	set_property IOSTANDARD LVCMOS33 [get_ports {a_t[0]}]
 set_property PACKAGE_PIN V16 [get_ports {a_t[1]}]
@@ -32,7 +28,8 @@ set_property PACKAGE_PIN V2 [get_ports {op_t[0]}]
 set_property PACKAGE_PIN T3 [get_ports {op_t[1]}]
 	set_property IOSTANDARD LVCMOS33 [get_ports {op_t[1]}]
 	
-	## definen los botones del la FSM
+## definen los botones del la FSM
+
 #set_property PACKAGE_PIN T2 [get_ports {sel_clk_t}]
 #	set_property IOSTANDARD LVCMOS33 [get_ports {sel_clk_t}]
 #set_property PACKAGE_PIN R3 [get_ports {x1_t}]
@@ -40,7 +37,8 @@ set_property PACKAGE_PIN T3 [get_ports {op_t[1]}]
 #set_property PACKAGE_PIN W2 [get_ports {x2_t}]
 #	set_property IOSTANDARD LVCMOS33 [get_ports {x2_t}]
 	
-	## definen los swithces de el selectror
+## definen los swithces del selector
+
 #set_property PACKAGE_PIN U1 [get_ports {sel_t[0]}]
 #	set_property IOSTANDARD LVCMOS33 [get_ports {sel_t[0]}]
 set_property PACKAGE_PIN T1 [get_ports {sel_t[0]}]
