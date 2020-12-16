@@ -1,27 +1,24 @@
 ----------------------------------------------------------------------------------
--- Engineer: 
+-- Engineer: Brayan Lechon
 -- 
 -- Create Date: 22.11.2019 18:00:56
--- Module Name: hex2disp - Behavioral
--- Project Name: 
+-- Module Name: Clock_Generator - Behavioral
+-- Project Name: ALU-FIR-FSM 
 
 -- Revision:
 -- Revision 0.01 - File Created
 
 ----------------------------------------------------------------------------------
-
-
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.NUMERIC_STD.ALL;
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 --use IEEE.NUMERIC_STD.ALL;
 
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+
+
 
 package Clock_Generator_pckg is
     component Clock_Generator

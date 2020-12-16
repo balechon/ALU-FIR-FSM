@@ -2,8 +2,8 @@
 -- Engineer: 
 -- 
 -- Create Date: 22.11.2019 18:00:56
--- Module Name: hex2disp - Behavioral
--- Project Name: 
+-- Module Name: mode_selector- Behavioral
+-- Project Name: ALU-FIR-FSM 
 
 -- Revision:
 -- Revision 0.01 - File Created

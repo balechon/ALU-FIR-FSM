@@ -3,7 +3,7 @@
 -- 
 -- Create Date: 22.11.2019 18:00:56
 -- Module Name: hex2disp - Behavioral
--- Project Name: 
+-- Project Name: ALU-FIR-FSM 
 
 -- Revision:
 -- Revision 0.01 - File Created

@@ -1,8 +1,8 @@
 ----------------------------------------------------------------------------------
--- Engineer: 
+-- Engineer: Bryan Lechon
 -- 
 -- Create Date: 22.11.2019 18:00:56
--- Module Name: hex2disp - Behavioral
+-- Module Name: alu - Behavioral
 -- Project Name: 
 
 -- Revision:
@@ -19,11 +19,6 @@ use IEEE.NUMERIC_STD.ALL;
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
 --use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 package alu_pck is
     component alu

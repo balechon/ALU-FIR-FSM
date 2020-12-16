@@ -1,27 +1,23 @@
 ----------------------------------------------------------------------------------
--- Engineer: 
+-- Engineer: Brayan Lechon
 -- 
 -- Create Date: 22.11.2019 18:00:56
--- Module Name: hex2disp - Behavioral
--- Project Name: 
+-- Module Name: FSM - Behavioral
+-- Project Name: ALU-FIR-FSM 
 
 -- Revision:
 -- Revision 0.01 - File Created
 
 ----------------------------------------------------------------------------------
 
-
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
 
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
+
+
 package FSM_pckg is
     component FSM
     Port ( x1 : in std_logic;
