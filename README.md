@@ -17,19 +17,19 @@ ademas se cuenta con otros modulos complementarios que que sirven para la sincro
 ##Diagrama de bloques
 ![image](https://user-images.githubusercontent.com/75377942/102537841-7f8b7b00-4079-11eb-8ec9-14d476116319.png)
 
-###ALU
+### ALU
 
 |   asas|   as|
 | ------------ | ------------ |
 |   asas|  asas |
 |   asas|  asas |
 
-###FIR
+### FIR
 
-###FSM
+### FSM
 
-###CLOCK
+### CLOCK
 
-###Hex-7segementos
+### Hex-7segementos
 
-##Pines I/O  del TOP
+## Pines I/O  del TOP
